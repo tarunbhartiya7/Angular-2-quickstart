@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
+
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular App</h1>'
+  templateUrl: 'app/shared/app.component.html'
 })
-export class AppComponent { }
+
+export class AppComponent {
+    message: string = "My First Angular App"
+ }
